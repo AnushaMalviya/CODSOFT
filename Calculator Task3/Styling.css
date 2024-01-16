@@ -1,0 +1,42 @@
+.container{
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(18, 42, 60);
+    padding: 25px;
+}
+
+.button{
+    font-size: 25px;
+    padding: 3px;
+    width: 50px;
+    height: 60px;
+    border: none;
+    color: white;
+    background: none;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.317);
+    border-radius: 50px;
+    margin: 7px;
+    cursor: pointer;
+}
+
+#main{
+    width: 245px;
+    height:60px;
+    margin: 10px 0px;
+    background: none;
+    border: 0px;
+    font-size: 35px;
+    color: white;
+    text-align: right;
+}
+
+.operator{
+    color: rgb(219, 172, 102);
+    font-size: 30px
+}
